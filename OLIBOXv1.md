@@ -15,9 +15,8 @@ The OLIBOX v1 offers the following:
 - Fleet Management (only from OLI Systems HQ)
 
 ## First Startup
-
+To login, username and password is needed. Default username and password is given below.
 - Username: As defined at the back of OLI box e.g. OLI_01
-
 - Password: "password"(can be changed later)
 
 ## Using SSH
