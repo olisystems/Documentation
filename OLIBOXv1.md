@@ -11,12 +11,16 @@ The OLIBOX v1 offers the following:
 - An easy to use Linux environment for rapid development
 - It´s very own measurement unit for easy access to real-life power-values
 - It´s own web-server to easily browse power-values gained through the measurement unit
-- SSH enabled
+- SSH
+- Fleet Management (only from OLI Systems HQ)
 
 ## First Startup
 
 HASSAN HERE!
 User names, Passwords and so on...
+
+## Using SSH
+We highly recommend the usage of public and private keypairs for OLIBOXES v1 deployed in the field. Passwords can be brute-forced, so a PKI with local password encryption adds t
 
 ## Using TMUX
 
@@ -33,8 +37,8 @@ https://www.cheatography.com/thecultofkaos/cheat-sheets/tmux-basics/
 ## Using the integrated measurement module
 
 As mentioned in the Featureset above, OLIBOX v1 has its very own measurement module. It can be used to monitor and log real-life values from power lines after the installation of the Current-Transformers. 
-*This installation should only be done by professionals who can qualify and quantify any risk that might be involved by the respective application.!*
 
+**This installation should only be done by professionals who can qualify and quantify any risk that might be involved by the respective application environment.!**
 
 OLIBOX v1 features its own web-server with a dashboard and a REST-API, from which you can get the power values. The general structure is:
 
