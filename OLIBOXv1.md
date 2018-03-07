@@ -17,9 +17,11 @@ The OLIBOX v1 offers the following:
 ## First Startup
 
 HASSAN HERE!
+
 User names, Passwords and so on...
 
 ## Using SSH
+
 We highly recommend the usage of public and private keypairs for OLIBOXES v1 deployed in the field. Passwords can be brute-forced, so a PKI with local password encryption adds t
 
 ## Using TMUX
@@ -29,9 +31,11 @@ TMUX is a highly versatile tool for the administration of devices through an SSH
 There are many tutorials and cheat sheets available online:
 
 Introduction to TMUX:
+
 http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
 
 Cheatsheet with shortcuts and other useful information:
+
 https://www.cheatography.com/thecultofkaos/cheat-sheets/tmux-basics/
 
 ## Using the integrated measurement module
@@ -47,31 +51,45 @@ http://ipaddress:1080/api/phaseid/valueid/now
 **For phaseid you can choose**
 
 phaseid/phase/comment
+
 1/Phase 1
+
 2/Phase 2
+
 3/Phase 3
+
 4/Neutral/ only for use with valueid current (current of  neutral conductor)
+
 all/All phases
 
 **For valueid you can choose**
 
 valueid/unit/comment
+
 current/Current [A]/(available for phase 1,2,3, neutral conductor)
+
 voltage/Voltage [V]/(available for phase 1,2,3)
+
 power/Power [W]/(available for phase 1,2,3)
+
 cosphi/cos φ/(available for phase 1,2,3 –  it is important to measure the voltage)
+
 frequency/Frequency [Hz]/(available for phase 1,2,3)
+
 all/Get all Values
 
 *The web-server in general is reachable at*
+
 http://ipaddress:1080
 
-*Tested Blockchain and DLT clients*
+## Tested Blockchain and DLT clients
 
 In our lab and real-life environment we have tested the following clients:
 
 Geth: Full Node on Public and Private Networks
+
 Parity: Full Node on Public and Private Networks
+
 IPFS Node
 
 
