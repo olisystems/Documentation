@@ -16,8 +16,9 @@ The OLIBOX v1 offers the following:
 
 ## First Startup
 
-Username: As defined at the back of OLI box e.g. OLI_01
-Password: "password"(can be changed later)
+- Username: As defined at the back of OLI box e.g. OLI_01
+
+- Password: "password"(can be changed later)
 
 ## Using SSH
 
