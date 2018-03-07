@@ -42,21 +42,20 @@ As mentioned in the Featureset above, OLIBOX v1 has its very own measurement mod
 
 OLIBOX v1 features its own web-server with a dashboard and a REST-API, from which you can get the power values. The general structure is:
 
-http://<ipaddress>:1080/api/<phaseid>/<valueid>/now
+http://ipaddress:1080/api/phaseid/valueid/now
 
-*For <phaseid> you can choose*
+**For phaseid you can choose**
 
-<phaseid>/phase/comment
+phaseid/phase/comment
 1/Phase 1
 2/Phase 2
 3/Phase 3
 4/Neutral/ only for use with valueid current (current of  neutral conductor)
 all/All phases
 
+**For valueid you can choose**
 
-*For <valueid> you can choose*
-
-<valueid>/unit/comment
+valueid/unit/comment
 current/Current [A]/(available for phase 1,2,3, neutral conductor)
 voltage/Voltage [V]/(available for phase 1,2,3)
 power/Power [W]/(available for phase 1,2,3)
@@ -65,7 +64,7 @@ frequency/Frequency [Hz]/(available for phase 1,2,3)
 all/Get all Values
 
 *The web-server in general is reachable at*
-http://<ipaddress>:1080
+http://ipaddress:1080
 
 *Tested Blockchain and DLT clients*
 
