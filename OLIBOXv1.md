@@ -85,10 +85,12 @@ http://ipaddress:1080
 
 In our lab and real-life environment we have tested the following clients:
 
-Geth: Full Node on Public and Private Networks
+Geth 1.8.3 ARMv7: Full Node on Public and Private Networks
 
-Parity: Full Node on Public and Private Networks
+Parity 1.9.4 beta ARMv7 : Full Node on Public and Private Networks
 
 IPFS Node
 
+### A quick note on Blockchain Clients and SD Cards:
 
+If you are installing your Blockchain Client on your OLI Box, you will probably shift all the files and binaries to the SD Card, which is in first instance the only mass storage on the system. Please be aware that the SD Card basically forms a single-point of failure for the OLI Box. The many Write commands from the Client can accelerate the aging process due to electrochemical processes inside the SD Cards and the connection pins. It is therefore better to store the client and/or the included database on a separate USB-Stick that is connected to the Pi. This is mainly a problem with FUll nodes, as they store every single transaction and contract locally. Light clients with the right configuration can circumvent this problem though, as they do not feature as many write processes.
