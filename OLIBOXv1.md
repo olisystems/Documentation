@@ -21,11 +21,11 @@ To login, username and password is needed. Default username and password is give
 
 ## Using SSH
 
-We highly recommend the usage of public and private keypairs for OLIBOXES v1 deployed in the field. Passwords can be brute-forced, so a PKI with local password encryption adds t
+We highly recommend the usage of public and private keypairs for OLIBOXES v1 deployed in the field. Passwords can be brute-forced, so a PKI with local password encryption adds another layer of security.
 
 ## Using TMUX
 
-TMUX is a highly versatile tool for the administration of devices through an SSH tunnel. While a standard SSH tunnel only features one executable shell, TMUX will enable you to open multiple shells at once. 
+TMUX is a highly versatile tool for the administration of devices through an SSH tunnel. While a standard SSH tunnel only features one executable shell, TMUX will enable you to open multiple shells at once. With TMUX, you will be able to easily monitor multiple processes at once.
 
 There are many tutorials and cheat sheets available online:
 
